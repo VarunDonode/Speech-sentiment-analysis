@@ -19,16 +19,17 @@ Preprocessing Steps:
 Model Architecture:
 The model architecture combines the feature extraction capabilities of CNNs with the sequence modeling power of LSTMs. The architecture includes:
 1.	Convolutional Layer:
-  o	Extracts spatial features from the input data.
-  o	Kernel size: 5, Filters: 256, Activation: ReLU.
+    1.	Extracts spatial features from the input data.
+    2.	Kernel size: 5, Filters: 256, Activation: ReLU.
 2.	LSTM Layers:
-  o	Captures temporal dependencies in the sequential data.
-  o	Four LSTM layers with 128 units each.
+    1.	Captures temporal dependencies in the sequential data.
+    2.	Four LSTM layers with 128 units each.
 3.	Fully Connected Layers:
-  o	Processes the flattened feature vector.
-  o	Includes dropout layers for regularization.
+    1.	Processes the flattened feature vector.
+    2.	Includes dropout layers for regularization.
 4.	Output Layer:
-  o	Dense layer with 6 units and softmax activation for multiclass classification.
+    1.	Dense layer with 6 units and softmax activation for multiclass classification.
+
 
 
 Challenges:
