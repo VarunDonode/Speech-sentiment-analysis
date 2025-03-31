@@ -38,12 +38,12 @@ Challenges:
 
 Potential Improvements:
 1.	Data Augmentation:
-o	Increase the diversity of the dataset using additional augmentation techniques.
+	Increase the diversity of the dataset using additional augmentation techniques.
 2.	Hyperparameter Tuning:
-o	Experiment with different learning rates, batch sizes, and optimizer configurations.
+	Experiment with different learning rates, batch sizes, and optimizer configurations.
 3.	Model Architecture:
-o	Add more LSTM layers or experiment with bidirectional LSTMs.
+	Add more LSTM layers or experiment with bidirectional LSTMs.
 4.	Regularization:
-o	Implement techniques like dropout and L2 regularization.
+	Implement techniques like dropout and L2 regularization.
 5.	Pretrained Models:
-o	Use pretrained audio feature extraction models like Wav2Vec or OpenL3.
+	Use pretrained audio feature extraction models like Wav2Vec or OpenL3.
